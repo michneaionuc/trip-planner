@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">TripPlanner</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="tag">Register to save your search history</string>
+    <string name="password">Password</string>
+    <string name="e_mail">Email</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="re_type_password">Re-type Password</string>
+    <string name="empty_fields">Fill in all fields</string>
+    <string name="passwords_not_match">Passwords must be the same</string>
+    <string name="user_saved">Registered successfully</string>
+    <string name="user_not_saved">Something went wrong</string>
+    <string name="user_exists">This email is already used</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="incorrect_email">Incorrect Email</string>
+    <string name="incorrect_password">Incorrect Password</string>
+    <string name="login_successfully">Successfully Logged In</string>
+    <string name="register_successfully">Successfully Registered</string>
+    <string name="swipe_left_for_register">Swipe left for register</string>
+    <string name="swipe_right_for_login">Swipe right for register</string>
 </resources>
