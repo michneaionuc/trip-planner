@@ -1,10 +1,13 @@
-package com.example.tripplanner;
+package com.example.tripplanner.viewmodel;
 
 import android.app.Application;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
+
+import com.example.tripplanner.model.User;
+import com.example.tripplanner.repository.UserRepository;
 
 import org.jetbrains.annotations.NotNull;
 

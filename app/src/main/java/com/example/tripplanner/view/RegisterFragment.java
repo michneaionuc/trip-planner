@@ -1,18 +1,20 @@
-package com.example.tripplanner;
+package com.example.tripplanner.view;
 
-import android.content.Intent;
 import android.os.Bundle;
-
-import androidx.annotation.Nullable;
-import androidx.fragment.app.Fragment;
-import androidx.lifecycle.ViewModelProvider;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+import androidx.lifecycle.ViewModelProvider;
+
+import com.example.tripplanner.R;
+import com.example.tripplanner.model.User;
+import com.example.tripplanner.viewmodel.UserViewModel;
 
 public class RegisterFragment extends Fragment implements View.OnClickListener {
     private View view;

@@ -1,18 +1,16 @@
-package com.example.tripplanner;
-
-import androidx.fragment.app.Fragment;
+package com.example.tripplanner.view;
 
 import android.os.Bundle;
-import android.view.GestureDetector;
-import android.view.MotionEvent;
-import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
-import androidx.fragment.app.FragmentTransaction;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.viewpager.widget.ViewPager;
+
+import com.example.tripplanner.R;
+import com.example.tripplanner.viewmodel.UserViewModel;
 
 import java.util.ArrayList;
 
@@ -20,7 +18,7 @@ public class AuthenticationActivity extends AppCompatActivity {
     private UserViewModel userViewModel;
 
     private LoginFragment loginFragment = new LoginFragment();
-    private  RegisterFragment registerFragment = new RegisterFragment();
+    private RegisterFragment registerFragment = new RegisterFragment();
 
     private int swipeThreshold = 100;
     private int swipeVelocityThreshold = 100;

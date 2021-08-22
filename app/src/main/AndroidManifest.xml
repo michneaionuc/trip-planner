@@ -13,14 +13,15 @@
             android:name="com.google.android.actions"
             android:resource="@drawable/btn_custom" />
 
-        <activity android:name=".AuthenticationActivity"/>
-        <activity android:name=".MainActivity">
+        <activity android:name=".view.AuthenticationActivity"/>
+        <activity android:name=".view.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>

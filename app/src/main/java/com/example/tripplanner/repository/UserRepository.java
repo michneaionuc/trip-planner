@@ -1,10 +1,13 @@
-package com.example.tripplanner;
+package com.example.tripplanner.repository;
 
 import android.app.Application;
 import android.os.AsyncTask;
-import android.widget.Toast;
 
 import androidx.lifecycle.LiveData;
+
+import com.example.tripplanner.dao.UserDAO;
+import com.example.tripplanner.model.User;
+import com.example.tripplanner.room.TripPlannerDatabase;
 
 import java.util.List;
 import java.util.concurrent.ExecutionException;
@@ -90,7 +93,6 @@ public class UserRepository {
         }
         @Override
         protected User doInBackground(String... email) {
-            System.out.println("YYYYYY1 = " + email[0]);
             return userDAO.getUserByEmail(email[0]);
         }
     }
