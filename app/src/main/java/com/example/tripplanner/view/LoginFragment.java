@@ -15,6 +15,8 @@ import androidx.lifecycle.ViewModelProvider;
 import com.example.tripplanner.R;
 import com.example.tripplanner.viewmodel.UserViewModel;
 
+import java.util.concurrent.ExecutionException;
+
 public class LoginFragment extends Fragment implements View.OnClickListener {
     private View view;
 
@@ -43,10 +45,11 @@ public class LoginFragment extends Fragment implements View.OnClickListener {
         buttonLogin.setOnClickListener(this);
     }
 
-    public void loginUser() {
+    public void loginUser() throws ExecutionException, InterruptedException {
         String email = editTextEmail.getText().toString();
         String password = editTextPassword.getText().toString();
-        // no regex, only non empty fields
+        Toast.makeText(getActivity().getApplicationContext(), userViewModel.getLocations().get(), Toast.LENGTH_LONG).show();
+//         no regex, only non empty fields
         if ( email.trim().isEmpty() || password.trim().isEmpty()) {
             Toast.makeText(getActivity().getApplicationContext(), getString(R.string.empty_fields), Toast.LENGTH_LONG).show();
             return;
@@ -75,7 +78,13 @@ public class LoginFragment extends Fragment implements View.OnClickListener {
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btn_login:
-                loginUser();
+                try {
+                    loginUser();
+                } catch (ExecutionException e) {
+                    e.printStackTrace();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
                 break;
         }
     }
