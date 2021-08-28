@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Mariana/trip-planner/app/src/main/res/drawable/btn_custom.xml" value="0.29444444444444445" />
+        <entry key="..\:/Mariana/trip-planner/app/src/main/res/drawable/et_custom.xml" value="0.221875" />
+        <entry key="..\:/Mariana/trip-planner/app/src/main/res/drawable/ic_active_bullet.xml" value="0.2869791666666667" />
+        <entry key="..\:/Mariana/trip-planner/app/src/main/res/drawable/ic_arrow_left.xml" value="0.29444444444444445" />
+        <entry key="..\:/Mariana/trip-planner/app/src/main/res/drawable/ic_arrow_right.xml" value="0.29444444444444445" />
+        <entry key="..\:/Mariana/trip-planner/app/src/main/res/drawable/ic_bullet.xml" value="0.29444444444444445" />
+        <entry key="..\:/Mariana/trip-planner/app/src/main/res/drawable/ic_bullet_empty.xml" value="0.29444444444444445" />
+        <entry key="..\:/Mariana/trip-planner/app/src/main/res/drawable/ic_disabled_bullet.xml" value="0.2869791666666667" />
+        <entry key="..\:/Mariana/trip-planner/app/src/main/res/drawable/ic_earch.xml" value="0.19907407407407407" />
+        <entry key="..\:/Mariana/trip-planner/app/src/main/res/drawable/ic_menu.xml" value="0.19907407407407407" />
+        <entry key="..\:/Mariana/trip-planner/app/src/main/res/drawable/ic_plane.xml" value="0.19907407407407407" />
+        <entry key="..\:/Mariana/trip-planner/app/src/main/res/drawable/ic_user.xml" value="0.19907407407407407" />
+        <entry key="..\:/Mariana/trip-planner/app/src/main/res/layout/activity_authentication.xml" value="0.28940217391304346" />
+        <entry key="..\:/Mariana/trip-planner/app/src/main/res/layout/activity_main.xml" value="0.23854166666666668" />
+        <entry key="..\:/Mariana/trip-planner/app/src/main/res/layout/fragment_login.xml" value="0.28940217391304346" />
+        <entry key="..\:/Mariana/trip-planner/app/src/main/res/layout/fragment_register.xml" value="0.3234375" />
+        <entry key="..\:/Mariana/trip-planner/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.29444444444444445" />
+        <entry key="..\:/Mariana/trip-planner/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.29444444444444445" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
